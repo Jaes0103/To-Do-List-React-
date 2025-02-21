@@ -66,7 +66,7 @@ const AddTodo = () => {
                         <Button onClick={handleSubmit}>Add To Do</Button>
                     </CardContent>
                     <CardFooter className="flex justify-between">
-                        <h1>Made with ♥ by Jaes</h1>
+                        <h1>Made with ♥ by Jaes--Jessca</h1>
                     </CardFooter>
                 </Card>
             </div>

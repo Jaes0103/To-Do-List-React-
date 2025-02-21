@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -34,7 +35,7 @@ const Todos = () => {
       <Card className="w-[750px]">
         <CardHeader>
           <CardTitle>To do's </CardTitle>
-          <CardDescription>Here are the of you to do's</CardDescription>
+          <CardDescription>Here are your to do's</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="flex flex-col gap-y-5 items-center">
@@ -44,7 +45,7 @@ const Todos = () => {
           </div>
         </CardContent>
         <CardFooter className="flex justify-between">
-          <h1>Made with ♥ by Jaes</h1>
+          <h1>Made with ♥ by Jaes--Jessca</h1>
         </CardFooter>
       </Card>
     </div>

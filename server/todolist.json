@@ -1,12 +1,6 @@
 {
   "todolist": [
     {
-      "id": "1",
-      "title": "Complete Project Proposal",
-      "description": "Draft and finalize the project proposal document.",
-      "date": "2025-02-22"
-    },
-    {
       "id": "2",
       "title": "Team Meeting",
       "description": "Discuss progress and assign tasks for the upcoming sprint.",

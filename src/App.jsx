@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   Route,
@@ -9,6 +10,7 @@ import MainLayout from "@/layouts/MainLayout";
 import Todos from "./pages/Todos";
 import Todo from "./pages/Todo";
 import AddTodo from "./pages/AddTodo";
+import EditToDo from "./pages/EditToDo";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +18,7 @@ const router = createBrowserRouter(
       <Route index element={<Todos />} />
       <Route path="/todo/:id" element={<Todo />} />
       <Route path="/add-todo" element={<AddTodo />} />
+      <Route path="/edit/:id" element={<EditToDo />} />
     </Route>
   )
 );
